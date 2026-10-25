@@ -1,0 +1,90 @@
+body {
+    background: #f1f5f9;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.counter {
+    text-align: center;
+    color: #64748b;
+    margin: 10px 0 20px;
+}
+
+.input-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+}
+
+.input-box button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #f8fafc;
+}
+
+.task.done {
+    background: #f0fdf4;
+    border-color: #bbf7d0;
+}
+
+.task.done span {
+    text-decoration: line-through;
+    color: #94a3b8;
+}
+
+.btns {
+    display: flex;
+    gap: 6px;
+}
+
+.btn-done {
+    background: #22c55e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.btn-del {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
